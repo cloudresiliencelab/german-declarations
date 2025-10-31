@@ -4,8 +4,8 @@
       "versions": {
         "storage": {
           "git": {
-            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/demo-snapshots/commit/%SNAPSHOT_ID",
-            "repository": "git@github.com:OpenTermsArchive/demo-versions.git",
+            "snapshotIdentiferTemplate": "https://github.com/cloudresiliencelab/german-snapshots/commit/%SNAPSHOT_ID",
+            "repository": "git@github.com:cloudresiliencelab/german-versions.git",
             "path": "./data/versions"
           }
         }
@@ -13,7 +13,7 @@
       "snapshots": {
         "storage": {
           "git": {
-            "repository": "git@github.com:OpenTermsArchive/demo-snapshots.git",
+            "repository": "git@github.com:cloudresiliencelab/german-snapshots.git",
             "path": "./data/snapshots"
           }
         }
@@ -31,26 +31,19 @@
     "reporter": {
       "type": "github",
       "repositories": {
-        "declarations": "OpenTermsArchive/demo-declarations",
-        "versions": "OpenTermsArchive/demo-versions",
-        "snapshots": "OpenTermsArchive/demo-snapshots"
+        "declarations": "cloudresiliencelab/german-declarations",
+        "versions": "cloudresiliencelab/german-versions",
+        "snapshots": "cloudresiliencelab/german-snapshots"
       }
     },
     "dataset": {
-      "title": "demo",
-      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/demo-versions"
+      "title": "german",
+      "versionsRepositoryURL": "https://github.com/cloudresiliencelab/german-versions"
     },
     "collection-api": {
       "port": 3000,
       "basePath": "/collection-api"
     },
-    "logger": {
-      "timestampPrefix": false
-    }
-  },
-  "@opentermsarchive/federation-api": {
-    "port": 3003,
-    "basePath": "/federation-api",
     "logger": {
       "timestampPrefix": false
     }

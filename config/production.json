@@ -45,7 +45,10 @@
       "basePath": "/collection-api"
     },
     "logger": {
-      "timestampPrefix": false
+      "smtp": {
+        "host": "smtp.mailersend.net",
+        "username": "ota_german"
+      }
     }
   }
 }

@@ -1,0 +1,15 @@
+{
+  "name": "Zalando",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.zalando.de/zalando-terms/",
+      "select": ".cf-singlepage-legal",
+      "remove": ["header._0xLoFW", "footer", ".cookie-banner", ".sc-dhKdcB", ".main-header-container"]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.zalando.de/zalando-privacy-policy/",
+      "select": "main",
+      "remove": ["header._0xLoFW", "footer", ".cookie-banner", ".sc-dhKdcB", ".main-header-container"]
+    }
+  }
+}

@@ -3,5 +3,4 @@ all:
     194.164.48.65:
       ansible_user: ota_service_account
       ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIEMGsjin2x62c4j4mAK1EewQT/2asx6OSC4NxyQO9xyX
-      ota_source_repository: git@github.com/cloudresiliencelab/german-declarations.git
-      # https://github.com/cloudresiliencelab/german-declarations.git
+      ota_source_repository: https://github.com/cloudresiliencelab/german-declarations.git

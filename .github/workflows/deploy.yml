@@ -41,4 +41,4 @@ jobs:
         env:
           ANSIBLE_VERBOSITY: 3  # Equivalent to -vvv
         working-directory: ./deployment
-        run: ansible-playbook ./ansible_collections/opentermsarchive/deployment/playbooks/deploy.yml
+        run: ansible-playbook deploy.yml

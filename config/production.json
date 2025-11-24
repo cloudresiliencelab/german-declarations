@@ -6,7 +6,8 @@
           "git": {
             "snapshotIdentiferTemplate": "https://github.com/cloudresiliencelab/german-snapshots/commit/%SNAPSHOT_ID",
             "repository": "git@github.com:cloudresiliencelab/german-versions.git",
-            "path": "./data/versions"
+            "path": "./data/versions",
+            "publish": true
           }
         }
       },
@@ -14,7 +15,8 @@
         "storage": {
           "git": {
             "repository": "git@github.com:cloudresiliencelab/german-snapshots.git",
-            "path": "./data/snapshots"
+            "path": "./data/snapshots",
+            "publish": true
           }
         }
       }

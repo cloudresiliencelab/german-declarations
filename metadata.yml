@@ -12,8 +12,8 @@ languages: [de]
 jurisdictions: [DE]
 trackingPeriods:
   - startDate: 2025-11-24
-    schedule: "30 */12 * * *"
-    serverLocation: 'germany'
+    schedule: "*/15 * * * *"
+    serverLocation: 'Germany'
 governance:
   cloudresiliencelab:
     url: 'https://www.hochschule-rhein-waal.de/de/fakultaeten/kommunikation-und-umwelt/labore/cloud-resilience-lab'

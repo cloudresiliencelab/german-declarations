@@ -1,0 +1,14 @@
+{
+  "name": "Open Terms Archive",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://opentermsarchive.org/en/privacy-policy",
+      "select": ".textcontent",
+      "remove": [
+        "div.container--fluid:nth-child(1)",
+        ".divider",
+        "html body div.container.container--has-no-padding-y.container--fluid.container--has-no-padding-x.container--is-gray div.container.container--flex.container--1211.container--has-padding-y-small"
+      ]
+    }
+  }
+}

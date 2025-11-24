@@ -1,0 +1,15 @@
+{
+  "name": "Ada Health",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://ada.com/terms-and-conditions/",
+      "select": ".sc-acd2fa4d-4",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://ada.com/privacy-policy/",
+      "select": ".sc-acd2fa4d-4",
+      "remove": []
+    }
+  }
+}

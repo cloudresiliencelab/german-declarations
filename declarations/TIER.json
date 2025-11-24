@@ -1,0 +1,17 @@
+{
+  "name": "TIER",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://mytier.app/pages/agb",
+      "select": ".page__content",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://mytier.app/pages/datenschutzerklarung",
+      "select": ".page__content",
+      "remove": [
+        "header, footer, nav, aside, .shopify-policy__title, .breadcrumbs, .newsletter, .cookie, .promo, .cta"
+      ]
+    }
+  }
+}

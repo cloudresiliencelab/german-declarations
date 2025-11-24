@@ -1,0 +1,15 @@
+{
+  "name": "Welt DIGITAL",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.welt.de/services/article122129231/Nutzungsbedingungen-WELT-Digital.html",
+      "select": ".c-article-page__text",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.welt.de/services/article157550705/Datenschutzerklaerung-WELT-DIGITAL.html",
+      "select": ".c-article-page__text",
+      "remove": []
+    }
+  }
+}

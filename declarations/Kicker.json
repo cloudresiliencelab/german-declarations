@@ -1,0 +1,15 @@
+{
+  "name": "Kicker",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.kicker.de/nutzungsbedingungen-350282/artikel",
+      "select": ".kick__article__content__child",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kicker.de/datenschutzhinweis-513381/artikel",
+      "select": ".kick__article__content__child",
+      "remove": []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Deutsche Bahn",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.bahn.de/nutzungsbedingungen?dbkanal_007=footerlinks-nutzungsbedingungen",
+      "select": "#content",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bahn.de/datenschutz?dbkanal_007=footerlinks-datenschutz",
+      "select": "#content",
+      "remove": []
+    }
+  }
+}

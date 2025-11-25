@@ -1,0 +1,10 @@
+{
+  "name": "NDR",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.ndr.de/service/datenschutz",
+      "select": "body > article:nth-child(4)",
+      "remove": []
+    }
+  }
+}

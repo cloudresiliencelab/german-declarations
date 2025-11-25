@@ -1,0 +1,10 @@
+{
+  "name": "Tagesschau",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.tagesschau.de/kontakt_und_hilfe/datenschutz",
+      "select": "article.container",
+      "remove": []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sport1",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.sport1.de/news/unternehmen/nutzungsbedingungen",
+      "select": "#s1-main-content",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sport1.de/unternehmen/datenschutz",
+      "select": "#s1-main-content",
+      "remove": []
+    }
+  }
+}

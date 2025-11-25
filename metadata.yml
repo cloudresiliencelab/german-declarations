@@ -1,19 +1,19 @@
 id: german
 name: german
-tagline: ''
-description: ''
+tagline: 'Largest digital services used in Germany'
+description: 'Tracking the largest services used in **Germany**. Maintained collaboratively by volunteer contributors. '
 dataset: https://github.com/cloudresiliencelab/german-versions/releases
 declarations: https://github.com/cloudresiliencelab/german-declarations
 versions: https://github.com/cloudresiliencelab/german-versions
 snapshots: https://github.com/cloudresiliencelab/german-snapshots
 donations: 'https://www.hochschule-rhein-waal.de/de/fakultaeten/kommunikation-und-umwelt/labore/cloud-resilience-lab'
 logo: 'https://www.hochschule-rhein-waal.de/sites/default/files/images/2024/04/03/crl_primary.png'
-languages: []
-jurisdictions: []
+languages: [de]
+jurisdictions: [DE]
 trackingPeriods:
-  - startDate: 2025-10-31
-    schedule: "30 */12 * * *"
-    serverLocation: ''
+  - startDate: 2025-11-24
+    schedule: "*/15 * * * *"
+    serverLocation: 'Germany'
 governance:
   cloudresiliencelab:
     url: 'https://www.hochschule-rhein-waal.de/de/fakultaeten/kommunikation-und-umwelt/labore/cloud-resilience-lab'

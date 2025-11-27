@@ -1,0 +1,15 @@
+{
+  "name": "Otto",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.otto.de/service/agb/",
+      "select": ".sp_js_contentElement.sp_plainText.sp_textBlockWithImage",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.otto.de/service/datenschutz/",
+      "select": ".sp_js_contentElement.sp_plainText.sp_textBlockWithImage",
+      "remove": []
+    }
+  }
+}

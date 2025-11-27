@@ -1,0 +1,15 @@
+{
+  "name": "Der Spiegel",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.spiegel.de/nutzungsbedingungen",
+      "select": "section.z-10.relative",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spiegel.de/datenschutz-spiegel",
+      "select": "section.z-10.relative",
+      "remove": []
+    }
+  }
+}

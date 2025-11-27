@@ -1,0 +1,15 @@
+{
+  "name": "Allianz Versicherung",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://goa-eportale.allianz.de/content/dam/onemarketing/dechap/dlc/OLB/O10/OLBO10002Z0.pdf.azde.download.pdf/OLBO10002Z0_Version-27V_08-08-2025.pdf",
+      "select": ".textLayer",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://goa-eportale.allianz.de/content/dam/onemarketing/dechap/dlc/OLB/O10/OLBO10003Z0.pdf.azde.download.pdf/OLBO10003Z0_Version-7V_31-07-2025.pdf",
+      "select": ".textLayer",
+      "remove": []
+    }
+  }
+}

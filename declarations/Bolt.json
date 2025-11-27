@@ -1,0 +1,15 @@
+{
+  "name": "Bolt",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://bolt.eu/de-de/legal/tnc-riders/?category=rides",
+      "select": "article.container",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://bolt.eu/de-de/privacy/privacy-for-riders/",
+      "select": "article.container",
+      "remove": []
+    }
+  }
+}

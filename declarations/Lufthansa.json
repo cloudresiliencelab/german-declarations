@@ -1,0 +1,13 @@
+{
+  "name": "Lufthansa",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.lufthansa.com/content/dam/lh/documents/common/terms-and-conditions/terms-of-service/abb_05_2018.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lufthansa.com/de/de/datenschutz",
+      "select": ".contentpage",
+      "remove": []
+    }
+  }
+}

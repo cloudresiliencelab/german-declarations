@@ -1,0 +1,13 @@
+{
+  "name": "Telefonica",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.telefonica.de/file/public/465/Telefonica-Germany-Einkaufs-AGB-01-2018.pdf?attachment=1"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.telefonica.de/unternehmen/datenschutz/datenschutz-auf-dem-portal.html",
+      "select": "#c04_0",
+      "remove": []
+    }
+  }
+}

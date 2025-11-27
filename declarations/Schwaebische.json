@@ -1,0 +1,15 @@
+{
+  "name": "Schwaebische",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.schwaebische.de/agb",
+      "select": ".tw-col-span-full",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.schwaebische.de/datenschutz",
+      "select": ".tw-col-span-full",
+      "remove": []
+    }
+  }
+}

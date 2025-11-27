@@ -1,0 +1,15 @@
+{
+  "name": "Deutsche Telekom",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.telekom.de/agb/downloads/53750.pdf",
+      "select": ".textLayer",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.telekom.de/ueber-das-unternehmen/datenschutz#fragen-und-antworten",
+      "select": "#fragen-und-antworten",
+      "remove": []
+    }
+  }
+}

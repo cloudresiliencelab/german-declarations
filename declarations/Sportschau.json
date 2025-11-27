@@ -1,7 +1,7 @@
 {
   "name": "Sportschau",
   "terms": {
-      "Privacy Policy": {
+    "Privacy Policy": {
       "fetch": "https://www.sportschau.de/datenschutz",
       "select": "article.container",
       "remove": []

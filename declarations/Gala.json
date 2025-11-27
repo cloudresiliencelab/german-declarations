@@ -4,12 +4,16 @@
     "Terms of Service": {
       "fetch": "https://www.gala.de/service/allgemeine-geschaeftsbedingungen-20103684.html",
       "select": ".article__body",
-      "remove": [".article__top"]
+      "remove": [
+        ".article__top"
+      ]
     },
     "Privacy Policy": {
       "fetch": "https://www.gala.de/service/datenschutzhinweise-20103668.html",
       "select": ".article__body",
-      "remove": [".consent-reject__button"]
+      "remove": [
+        ".consent-reject__button"
+      ]
     }
   }
 }

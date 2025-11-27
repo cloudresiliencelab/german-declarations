@@ -1,0 +1,8 @@
+{
+  "name": "N26",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://docs.n26.com/legal/01+DE/03+Privacy+Policy/de/01privacy-policy-de.pdf"
+    }
+  }
+}

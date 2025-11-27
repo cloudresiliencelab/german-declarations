@@ -1,0 +1,21 @@
+{
+  "name": "Flix",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.flixbus.de/agb",
+      "select": "#main-content",
+      "remove": [
+        "nav",
+        "script"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.flixbus.de/datenschutz",
+      "select": "#main-content",
+      "remove": [
+        "nav",
+        "script"
+      ]
+    }
+  }
+}

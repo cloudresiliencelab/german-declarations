@@ -1,0 +1,20 @@
+{
+  "name": "kleinanzeigen",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://themen.kleinanzeigen.de/nutzungsbedingungen/",
+      "select": ".main",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://themen.kleinanzeigen.de/datenschutzerklaerung/",
+      "select": [
+        {
+          "startAfter": ".content-toc",
+          "endBefore": ".back-to-top"
+        }
+      ],
+      "remove": []
+    }
+  }
+}

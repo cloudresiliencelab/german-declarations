@@ -1,0 +1,19 @@
+{
+  "name": "Google",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://policies.google.com/terms?hl=de&fg=1",
+      "select": "#main-content",
+      "remove": [
+        ".I9WKse"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://policies.google.com/privacy?hl=de&fg=1",
+      "select": "#main-content",
+      "remove": [
+        ".I9WKse"
+      ]
+    }
+  }
+}

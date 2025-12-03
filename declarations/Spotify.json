@@ -1,0 +1,26 @@
+{
+  "name": "Spotify",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.spotify.com/de/legal/end-user-agreement/",
+      "select": ".container",
+      "remove": [
+        ".subnav-main"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spotify.com/de/legal/privacy-policy/",
+      "select": ".container",
+      "remove": [
+        ".subnav-main"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.spotify.com/de/legal/cookies-policy/",
+      "select": ".container",
+      "remove": [
+        ".subnav-main"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Youtube",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.youtube.com/t/terms",
+      "select": "#main-content",
+      "remove": [
+        ".I9WKse"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://policies.google.com/privacy",
+      "select": "#main-content",
+      "remove": [
+        ".I9WKse"
+      ]
+    }
+  }
+}

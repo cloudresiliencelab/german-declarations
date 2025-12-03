@@ -1,0 +1,24 @@
+{
+  "name": "Paypal",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.paypal.com/de/legalhub/paypal/useragreement-full",
+      "select": "#content-wrapper",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.paypal.com/de/legalhub/paypal/privacy-full",
+      "select": "#content-wrapper",
+      "remove": [
+        "#globalnav-footer-wrapper"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.paypal.com/DE/legalhub/paypal/cookie-full",
+      "select": "#content-wrapper",
+      "remove": [
+        "#globalnav-footer-wrapper"
+      ]
+    }
+  }
+}

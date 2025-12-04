@@ -1,0 +1,20 @@
+{
+  "name": "Amazon",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.amazon.de/gp/help/customer/display.html?nodeId=GLSBYFE9MGKKQXXM&ref_=footer_cou",
+      "select": ".help-content",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.amazon.de/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ&ref_=footer_privacy",
+      "select": ".help-service-content",
+      "remove": []
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.amazon.de/gp/help/customer/display.html?nodeId=201890250&ref_=footer_cookies_notice",
+      "select": ".help-service-content",
+      "remove": []
+    }
+  }
+}

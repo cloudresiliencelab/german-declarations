@@ -1,0 +1,15 @@
+{
+  "name": "ardmediathek",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.ardmediathek.de/nutzungsbedingungen",
+      "select": "#goToContent",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ardmediathek.de/datenschutz",
+      "select": "#goToContent",
+      "remove": []
+    }
+  }
+}

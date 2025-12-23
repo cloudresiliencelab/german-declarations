@@ -1,0 +1,12 @@
+{
+  "name": "br",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.br.de/unternehmen/service/datenschutz/datenschutz-allgemein-100.html",
+      "select": ".detail_inlay",
+      "remove": [
+        ".lead_picture"
+      ]
+    }
+  }
+}

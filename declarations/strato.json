@@ -1,0 +1,20 @@
+{
+  "name": "strato",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.strato.de/agb/",
+      "select": ".sub-nav-section",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.strato.de/datenschutz/",
+      "select": [
+        {
+          "startAfter": ".sub-nav-section",
+          "endBefore": ".consent__wrapper"
+        }
+      ],
+      "remove": []
+    }
+  }
+}

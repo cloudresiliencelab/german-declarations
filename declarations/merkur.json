@@ -1,0 +1,20 @@
+{
+  "name": "merkur",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.merkur.de/ueber-uns/agb/",
+      "select": [
+        {
+          "startAfter": "#agbanzeigen",
+          "endBefore": ".id-SiteFooter"
+        }
+      ],
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.merkur.de/ueber-uns/datenschutz/",
+      "select": ".id-Article-body",
+      "remove": []
+    }
+  }
+}

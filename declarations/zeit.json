@@ -1,0 +1,17 @@
+{
+  "name": "zeit",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.zeit.de/administratives/agb-kommentare-artikel",
+      "select": ".article-body",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://datenschutz.zeit.de/zon",
+      "select": ".declaration-content-container",
+      "remove": [
+        "#p-nutzungsmöglichkeiten"
+      ]
+    }
+  }
+}

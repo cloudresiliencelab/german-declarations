@@ -1,0 +1,15 @@
+{
+  "name": "stern",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.stern.de/agb-4541846.html",
+      "select": ".article",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.stern.de/datenschutzbestimmungen-4541848.html",
+      "select": ".article",
+      "remove": []
+    }
+  }
+}
